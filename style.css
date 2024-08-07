@@ -58,3 +58,7 @@ body{
     padding: 10px;
     border-radius: 30px;
 }
+
+.sale-image img{
+    width: 100%;
+}
