@@ -122,3 +122,26 @@ body{
     margin: 10px;
     gap: 10px;
 }
+
+.footer{
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+.footer__one{
+    display: flex;
+    gap: 10px;
+}
+
+.footer__one p{
+    margin: 10px;
+}
+
+
+.footer__two{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+
+}
