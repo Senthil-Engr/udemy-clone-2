@@ -72,11 +72,12 @@ body{
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 10px;
-
+    gap:10px;
 }
 
 .course-card{
     width: 250px;
+    flex-grow: 1;
 }
 
 .course-card img{
@@ -119,4 +120,5 @@ body{
     justify-content: space-between;
     flex-wrap: wrap;
     margin: 10px;
+    gap: 10px;
 }
