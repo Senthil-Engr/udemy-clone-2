@@ -206,3 +206,38 @@ body{
     margin: 10px;
 
 }
+
+    
+@media screen and (max-width:800px){
+    body{
+        font-size: 10px;
+    }
+    
+}
+
+@media screen and (max-width:600px){
+    .course-card{
+        flex-basis: 40%;
+    }
+    .categories{
+        display: none;
+    }
+    .navbar__search,.navbar__menu{
+        display: none;
+    }
+}
+
+@media screen and (min-width:800px) {
+    .course-card{
+        flex-basis: 20%;
+    }
+    .navbar__menubar{
+        display: none;
+    }
+}
+
+@media screen and (min-width:600px){
+    .navbar__menubar{
+        display: none;
+    }
+}
